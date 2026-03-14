@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body onload="addTabIndex()">
+
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <div class="flex-container">
+            <img class="preview" alt="Grace Ashcroft" src="https://i.pinimg.com/736x/58/ff/76/58ff76eb055b2d0aea80cc51cbea547e.jpg" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Ashley Graham" src="https://i.pinimg.com/avif/736x/af/6d/bf/af6dbfc25a19206fe277d1f860274e50.avf" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Sherry Birkin" src="https://i.pinimg.com/736x/f6/6f/5f/f66f5f97b179cd29baf58cf229fb69d1.jpg" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Ada Wong" src="https://i.pinimg.com/avif/1200x/95/5e/c1/955ec1985ce469894f1c2a537366236b.avf" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Claire Redfield" src="https://i.pinimg.com/736x/13/3a/99/133a9909023b63ee3570a91ea98b85b7.jpg" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Leon S.Kennedy" src="https://i.pinimg.com/736x/d6/05/9f/d6059f380eb346dc611e036f2c3e599d.jpg" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
